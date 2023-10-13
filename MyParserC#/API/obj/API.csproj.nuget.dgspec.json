@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\MyParser\\MyParser.csproj": {}
+    "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\MyParser\\MyParser.csproj": {
+    "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\MyParser\\MyParser.csproj",
-        "projectName": "MyParser",
-        "projectPath": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\MyParser\\MyParser.csproj",
+        "projectUniqueName": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API.csproj",
+        "projectName": "API",
+        "projectPath": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API.csproj",
         "packagesPath": "C:\\Users\\stepa\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\MyParser\\obj\\",
+        "outputPath": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\stepa\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,9 +38,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "HtmlAgilityPack": {
+            "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[1.11.54, )"
+              "version": "[7.0.10, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -55,6 +63,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
