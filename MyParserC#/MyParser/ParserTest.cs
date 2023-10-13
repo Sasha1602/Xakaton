@@ -1,5 +1,7 @@
 ﻿using System.Net;
 using HtmlAgilityPack;
+using MongoDB.Driver;
+using MongoDB.Bson;
 
 namespace MyParser;
 
@@ -24,6 +26,10 @@ public class ParserTest
 
     public static void Parse()
     {
+        var mongoClient = new MongoClient("mongodb://192.168.14.228");
+        var mongoDb = mongoClient.GetDatabase("XakaDB");
+        var collection = mongoDb.GetCollection<BsonDocument>("myphotodb");
+        
         foreach (var link in links)
         {
             // бегаем по страницам
@@ -61,6 +67,8 @@ public class ParserTest
                     string fileName = $"image_{Guid.NewGuid()}.jpg";
 
                     client.DownloadFile("https:" + imageUrl, fileName);
+                    var doc = new BsonDocument { { "imageSrc", fileName } };
+                    collection.InsertOne(doc);
                     Console.WriteLine($"Downlad file \"{fileName}\".");
                 }
             }
