@@ -7,7 +7,7 @@ namespace MyParser;
 
 public class ParserTest
 {
-    public static int maxPages = 3;
+    public static int maxPages = 50;
 
     /*public static Dictionary<char, string> directiries = new Dictionary<char, string>()
     {
@@ -18,24 +18,29 @@ public class ParserTest
     };*/
 
     public static string[] links =
-    {
-        "https://www.lamoda.ru/c/355/clothes-zhenskaya-odezhda/",
-        "https://www.lamoda.ru/c/477/clothes-muzhskaya-odezhda", "https://www.lamoda.ru/c/1590/clothes-dlia-devochek/",
-        "https://www.lamoda.ru/c/5378/default-malchikam/"
-    };
+        {
+            "https://www.lamoda.ru/c/2474/clothes-tolstovki-olimpiyki/",
+            "https://www.lamoda.ru/c/2512/clothes-muzhskie-futbolki/", 
+            /*"https://www.lamoda.ru/c/1590/clothes-dlia-devochek/",
+            "https://www.lamoda.ru/c/5378/default-malchikam/"*/
+        };
 
     public static void Parse()
     {
         var mongoClient = new MongoClient("mongodb://192.168.14.228");
         var mongoDb = mongoClient.GetDatabase("XakaDB");
-        var collection = mongoDb.GetCollection<BsonDocument>("myphotodb");
         
-        foreach (var link in links)
+        for (int i = 0; i < links.Length; i++)
         {
+            mongoDb.CreateCollection("myphotodb" + i);
+            var collection = mongoDb.GetCollection<BsonDocument>("myphotodb" + i);
+            var link = links[i];
+            
             // бегаем по страницам
             for (int page = 1; page < maxPages; page++)
             {
                 var workLink= link +"?page=" + page;
+                var folder = "myphotodb" + i;
 
                 // создание клиента для парсинга
                 WebClient client = new WebClient();
@@ -66,7 +71,7 @@ public class ParserTest
 
                     string fileName = $"image_{Guid.NewGuid()}.jpg";
 
-                    client.DownloadFile("https:" + imageUrl, fileName);
+                    client.DownloadFile("https:" + imageUrl, folder + "/" +fileName);
                     var doc = new BsonDocument { { "imageSrc", fileName } };
                     collection.InsertOne(doc);
                     Console.WriteLine($"Downlad file \"{fileName}\".");
