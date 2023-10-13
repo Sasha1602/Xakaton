@@ -71,8 +71,8 @@ public class ParserTest
 
                     string fileName = $"image_{Guid.NewGuid()}.jpg";
 
-                    client.DownloadFile("https:" + imageUrl, fileName);
-                    var doc = new BsonDocument { { "imageSrc", folder + "/" +fileName } };
+                    client.DownloadFile("https:" + imageUrl, folder + "/" +fileName);
+                    var doc = new BsonDocument { { "imageSrc", fileName } };
                     collection.InsertOne(doc);
                     Console.WriteLine($"Downlad file \"{fileName}\".");
                 }
