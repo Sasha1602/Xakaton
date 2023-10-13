@@ -40,6 +40,7 @@ public class ParserTest
             for (int page = 1; page < maxPages; page++)
             {
                 var workLink= link +"?page=" + page;
+                var folder = "myphotodb" + i;
 
                 // создание клиента для парсинга
                 WebClient client = new WebClient();
@@ -71,7 +72,7 @@ public class ParserTest
                     string fileName = $"image_{Guid.NewGuid()}.jpg";
 
                     client.DownloadFile("https:" + imageUrl, fileName);
-                    var doc = new BsonDocument { { "imageSrc", fileName } };
+                    var doc = new BsonDocument { { "imageSrc", folder + "/" +fileName } };
                     collection.InsertOne(doc);
                     Console.WriteLine($"Downlad file \"{fileName}\".");
                 }
