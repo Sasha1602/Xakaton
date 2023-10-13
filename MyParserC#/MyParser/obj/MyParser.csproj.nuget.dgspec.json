@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\CSharp\\MyParser\\MyParser\\MyParser\\MyParser.csproj": {}
+    "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\MyParser\\MyParser.csproj": {}
   },
   "projects": {
-    "C:\\Code\\CSharp\\MyParser\\MyParser\\MyParser\\MyParser.csproj": {
+    "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\MyParser\\MyParser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\CSharp\\MyParser\\MyParser\\MyParser\\MyParser.csproj",
+        "projectUniqueName": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\MyParser\\MyParser.csproj",
         "projectName": "MyParser",
-        "projectPath": "C:\\Code\\CSharp\\MyParser\\MyParser\\MyParser\\MyParser.csproj",
+        "projectPath": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\MyParser\\MyParser.csproj",
         "packagesPath": "C:\\Users\\stepa\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\CSharp\\MyParser\\MyParser\\MyParser\\obj\\",
+        "outputPath": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\MyParser\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\stepa\\AppData\\Roaming\\NuGet\\NuGet.Config"
