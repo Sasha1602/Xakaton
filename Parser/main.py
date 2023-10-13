@@ -9,7 +9,7 @@ from pymongo import MongoClient
 from pymongo import ReturnDocument
 
 client = MongoClient('mongodb://localhost:27017/')
-db = client.lamoda
+db = client.Xakabd
 
 
 def my_translit(text):
@@ -45,15 +45,21 @@ bases = {"women": women_home, "man": man_home, "kids": kids_home}
 
 key = list(bases.keys())[0]
 base = bases[key]
+print(base)
 # for base in bases
 
 response = requests.get(base)
 
 page_soup = BeautifulSoup(response.content, "html.parser")
+print(page_soup)
 items = defaultdict()
 items["Одежда"] = defaultdict(list,[("name","cloth")])
 #items["Обувь"] = defaultdict(list,[("name","shooes")])
-nav = page_soup.find("div", {"class": "d-header-top-menu-wrapper"})
+
+
+nav = page_soup.find("div", {"class" : "_root_v5ijp_2"})
+print(nav)
+
 
 
 # Working parsing Categories
@@ -66,7 +72,9 @@ for item in items:
     clothes = requests.get(f"{base_link}{cloth_link}")
     clothes_soup = BeautifulSoup(clothes.content, "html.parser")
 
-    cloth_nav = clothes_soup.find("span", attrs={"data-loaded": "1"})
+
+    cloth_nav = clothes_soup.find("x-product-card__pic-img", attrs={"data-loaded":"1"})
+
     items_list = cloth_nav.parent.contents[1]
     for nav_el in items_list:
         cat_link = nav_el.contents[0].find("a")
