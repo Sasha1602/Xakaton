@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "urtOPjxO1gEWXOy0NzDOBVkH7pc+eeGrWgHX5cDC57FvivYz9JGMJjohQQ3CLel4FNrnbt/hpQU7KLZyML0XIQ==",
+  "dgSpecHash": "0Xucgw0+0+M1tMlFnD1DwWTCt3PeHkkTOfed+/EGohZfQgSf0f2T8NaPWccT+m831bSI5gd1yDwBtzxCSSDBAg==",
   "success": true,
-  "projectFilePath": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API.csproj",
+  "projectFilePath": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stepa\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\stepa\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
@@ -16,6 +16,7 @@
     "C:\\Users\\stepa\\.nuget\\packages\\mongodb.bson\\2.22.0\\mongodb.bson.2.22.0.nupkg.sha512",
     "C:\\Users\\stepa\\.nuget\\packages\\mongodb.driver\\2.22.0\\mongodb.driver.2.22.0.nupkg.sha512",
     "C:\\Users\\stepa\\.nuget\\packages\\mongodb.driver.core\\2.22.0\\mongodb.driver.core.2.22.0.nupkg.sha512",
+    "C:\\Users\\stepa\\.nuget\\packages\\mongodb.driver.gridfs\\2.22.0\\mongodb.driver.gridfs.2.22.0.nupkg.sha512",
     "C:\\Users\\stepa\\.nuget\\packages\\mongodb.libmongocrypt\\1.8.0\\mongodb.libmongocrypt.1.8.0.nupkg.sha512",
     "C:\\Users\\stepa\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\stepa\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",

@@ -195,6 +195,24 @@
           }
         }
       },
+      "MongoDB.Driver.GridFS/2.22.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.22.0",
+          "MongoDB.Driver": "2.22.0",
+          "MongoDB.Driver.Core": "2.22.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/MongoDB.Driver.GridFS.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/MongoDB.Driver.GridFS.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MongoDB.Libmongocrypt/1.8.0": {
         "type": "package",
         "compile": {
@@ -871,6 +889,25 @@
         "packageIcon.png"
       ]
     },
+    "MongoDB.Driver.GridFS/2.22.0": {
+      "sha512": "Bj2zInnyU76CeRgv+7/9X9Qb/VQgCfS3ZkDHmtuQFsQXPpyfZf6QyzeBM87KdhdYC4vdK0M7I0aMDrO6LVhOew==",
+      "type": "package",
+      "path": "mongodb.driver.gridfs/2.22.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net472/MongoDB.Driver.GridFS.dll",
+        "lib/net472/MongoDB.Driver.GridFS.xml",
+        "lib/netstandard2.0/MongoDB.Driver.GridFS.dll",
+        "lib/netstandard2.0/MongoDB.Driver.GridFS.xml",
+        "lib/netstandard2.1/MongoDB.Driver.GridFS.dll",
+        "lib/netstandard2.1/MongoDB.Driver.GridFS.xml",
+        "mongodb.driver.gridfs.2.22.0.nupkg.sha512",
+        "mongodb.driver.gridfs.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "MongoDB.Libmongocrypt/1.8.0": {
       "sha512": "fgNw8Dxpkq7mpoaAYes8cfnPRzvFIoB8oL9GPXwi3op/rONftl0WAeg4akRLcxfoVuUvuUO2wGoVBr3JzJ7Svw==",
       "type": "package",
@@ -1237,7 +1274,8 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.AspNetCore.OpenApi >= 7.0.10",
-      "MongoDB.Driver >= 2.22.0",
+      "MongoDB.Driver.Core >= 2.22.0",
+      "MongoDB.Driver.GridFS >= 2.22.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -1247,11 +1285,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API.csproj",
+      "projectUniqueName": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API.csproj",
+      "projectPath": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API\\API.csproj",
       "packagesPath": "C:\\Users\\stepa\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\obj\\",
+      "outputPath": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\stepa\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1282,7 +1320,11 @@
             "target": "Package",
             "version": "[7.0.10, )"
           },
-          "MongoDB.Driver": {
+          "MongoDB.Driver.Core": {
+            "target": "Package",
+            "version": "[2.22.0, )"
+          },
+          "MongoDB.Driver.GridFS": {
             "target": "Package",
             "version": "[2.22.0, )"
           },

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API.csproj": {}
+    "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API.csproj": {
+    "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API.csproj",
+        "projectUniqueName": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API.csproj",
+        "projectPath": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API\\API.csproj",
         "packagesPath": "C:\\Users\\stepa\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\obj\\",
+        "outputPath": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\API\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\stepa\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,7 +42,11 @@
               "target": "Package",
               "version": "[7.0.10, )"
             },
-            "MongoDB.Driver": {
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
+            "MongoDB.Driver.GridFS": {
               "target": "Package",
               "version": "[2.22.0, )"
             },
