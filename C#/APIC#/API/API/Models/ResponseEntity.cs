@@ -8,6 +8,5 @@ public class ResponseEntity
     
     public string Body { get; set; }
 
-    public string PickId { get; set; }
-    
+    public string PicId { get; set; }
 }
