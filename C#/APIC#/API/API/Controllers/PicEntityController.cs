@@ -1,5 +1,6 @@
 ﻿using API.Models;
 using Microsoft.AspNetCore.Mvc;
+using MongoDB.Bson;
 
 namespace API.Controllers;
 
@@ -16,9 +17,19 @@ public class PicEntityController : ControllerBase
     {
         var database = client.GetDatabase("XakaDB");
         _picCollection = database.GetCollection<PicEntity>("generatedPics");
-        _responseCollection = database.GetCollection<ResponseEntity>("responsesdb");
+       _responseCollection = database.GetCollection<ResponseEntity>("responsesdb");
     }
+    
+    
+    [HttpGet]
+    public string GetPic(string responseBody)
+    {
+        var response = new ResponseEntity();
+        response.Body = responseBody;
 
+        var pic = _picCollection.Find(x => x.Id.ToString() == response.PicId);
+        return String.Empty;
 
+    }
     
 }
