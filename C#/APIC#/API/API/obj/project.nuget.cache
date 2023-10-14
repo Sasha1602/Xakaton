@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JuUEFphgnBhK8HvMTf76oPIhH6gTUD2oI+wBVnU6bF2seZkW2imuhQTIWrYHtpNW3k6hPA3FeUd+DoNY2S5MVA==",
+  "dgSpecHash": "Uw53CWtyit33rJCqbBeuYEE6W5leBec6MGEszl5G4RRJr8mAe0mSUxkQkjuXgg+3Er630849tendrEtCdsGsrw==",
   "success": true,
   "projectFilePath": "C:\\Code\\Hakaton\\Xakaton\\C#\\APIC#\\API\\API\\API.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\stepa\\.nuget\\packages\\mongodb.bson\\2.22.0\\mongodb.bson.2.22.0.nupkg.sha512",
     "C:\\Users\\stepa\\.nuget\\packages\\mongodb.driver\\2.22.0\\mongodb.driver.2.22.0.nupkg.sha512",
     "C:\\Users\\stepa\\.nuget\\packages\\mongodb.driver.core\\2.22.0\\mongodb.driver.core.2.22.0.nupkg.sha512",
+    "C:\\Users\\stepa\\.nuget\\packages\\mongodb.driver.gridfs\\2.22.0\\mongodb.driver.gridfs.2.22.0.nupkg.sha512",
     "C:\\Users\\stepa\\.nuget\\packages\\mongodb.libmongocrypt\\1.8.0\\mongodb.libmongocrypt.1.8.0.nupkg.sha512",
     "C:\\Users\\stepa\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\stepa\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",

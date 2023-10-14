@@ -46,6 +46,10 @@
               "target": "Package",
               "version": "[2.22.0, )"
             },
+            "MongoDB.Driver.GridFS": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"

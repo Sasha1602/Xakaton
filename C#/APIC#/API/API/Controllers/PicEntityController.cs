@@ -19,13 +19,6 @@ public class PicEntityController : ControllerBase
         _responseCollection = database.GetCollection<ResponseEntity>("responsesdb");
     }
 
-    [HttpGet]
-    public Task<PicEntity> GetPic(ResponseEntity response)
-    {
-        _responseCollection.InsertOne(response);
 
-        var pic = _picCollection.FindAsync(elem => elem.Id.ToString() == response.PickId);
-        return pic;
-    }
     
 }
