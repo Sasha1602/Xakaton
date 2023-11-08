@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD:Server/ParserAndMore/MyParser/obj/MyParser.csproj.nuget.dgspec.json
     "C:\\Code\\Neiroprint\\Xakaton\\Server\\MyParserC#\\MyParser\\MyParser.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Code\\Neiroprint\\Xakaton\\Server\\MyParserC#\\MyParser\\MyParser.csproj",
         "packagesPath": "C:\\Users\\stepa\\.nuget\\packages\\",
         "outputPath": "C:\\Code\\Neiroprint\\Xakaton\\Server\\MyParserC#\\MyParser\\obj\\",
+=======
+    "C:\\Code\\Neiroprint\\Xakaton\\Server\\C#\\MyParserC#\\MyParser\\MyParser.csproj": {}
+  },
+  "projects": {
+    "C:\\Code\\Neiroprint\\Xakaton\\Server\\C#\\MyParserC#\\MyParser\\MyParser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\Neiroprint\\Xakaton\\Server\\C#\\MyParserC#\\MyParser\\MyParser.csproj",
+        "projectName": "MyParser",
+        "projectPath": "C:\\Code\\Neiroprint\\Xakaton\\Server\\C#\\MyParserC#\\MyParser\\MyParser.csproj",
+        "packagesPath": "C:\\Users\\stepa\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\Neiroprint\\Xakaton\\Server\\C#\\MyParserC#\\MyParser\\obj\\",
+>>>>>>> f26ce65ddf8d42eed68e99dcf2828a3cace2a1ee:Server/C#/MyParserC#/MyParser/obj/MyParser.csproj.nuget.dgspec.json
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\stepa\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -851,11 +851,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD:Server/ParserAndMore/MyParser/obj/project.assets.json
       "projectUniqueName": "C:\\Code\\Neiroprint\\Xakaton\\Server\\MyParserC#\\MyParser\\MyParser.csproj",
       "projectName": "MyParser",
       "projectPath": "C:\\Code\\Neiroprint\\Xakaton\\Server\\MyParserC#\\MyParser\\MyParser.csproj",
       "packagesPath": "C:\\Users\\stepa\\.nuget\\packages\\",
       "outputPath": "C:\\Code\\Neiroprint\\Xakaton\\Server\\MyParserC#\\MyParser\\obj\\",
+=======
+      "projectUniqueName": "C:\\Code\\Neiroprint\\Xakaton\\Server\\C#\\MyParserC#\\MyParser\\MyParser.csproj",
+      "projectName": "MyParser",
+      "projectPath": "C:\\Code\\Neiroprint\\Xakaton\\Server\\C#\\MyParserC#\\MyParser\\MyParser.csproj",
+      "packagesPath": "C:\\Users\\stepa\\.nuget\\packages\\",
+      "outputPath": "C:\\Code\\Neiroprint\\Xakaton\\Server\\C#\\MyParserC#\\MyParser\\obj\\",
+>>>>>>> f26ce65ddf8d42eed68e99dcf2828a3cace2a1ee:Server/C#/MyParserC#/MyParser/obj/project.assets.json
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\stepa\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -8,4 +8,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyParser
+<<<<<<< HEAD:Server/ParserAndMore/MyParser/obj/Debug/net7.0/MyParser.GeneratedMSBuildEditorConfig.editorconfig
 build_property.ProjectDir = C:\Code\Neiroprint\Xakaton\Server\MyParserC#\MyParser\
+=======
+build_property.ProjectDir = C:\Code\Neiroprint\Xakaton\Server\C#\MyParserC#\MyParser\
+>>>>>>> f26ce65ddf8d42eed68e99dcf2828a3cace2a1ee:Server/C#/MyParserC#/MyParser/obj/Debug/net7.0/MyParser.GeneratedMSBuildEditorConfig.editorconfig
