@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyParser
-build_property.ProjectDir = C:\Code\Hakaton\Xakaton\MyParserC#\MyParser\
+build_property.ProjectDir = C:\Code\Neiroprint\Xakaton\Server\C#\MyParserC#\MyParser\
