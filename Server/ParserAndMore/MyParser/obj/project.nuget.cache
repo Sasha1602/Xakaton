@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD:Server/ParserAndMore/MyParser/obj/project.nuget.cache
-  "dgSpecHash": "e5cfAepbGDjDs9THLvrFSflKUSfsLqWVgM8gn0uhrHWBb4rbnlsZzo1xThPn+f2M1RJTzWe2OIB3/pCKOcnyJQ==",
+  "dgSpecHash": "NktUharxSS2K6YKB/a0aGK4n4v0b6e/k2q0Q/apioL7tLuBi/4pWe40r4oA9qGmF7B8M7mDIf8blsEX/oczKXQ==",
   "success": true,
-  "projectFilePath": "C:\\Code\\Neiroprint\\Xakaton\\Server\\MyParserC#\\MyParser\\MyParser.csproj",
-=======
-  "dgSpecHash": "NDT2HnGZE8k7IgbfWw6+T9jb3Rb4Y6y1Q1i6w0NroFtJDO8nwvPPbKHHZnxZHknu3piafPV38lfuwgi/sDU2Cg==",
-  "success": true,
-  "projectFilePath": "C:\\Code\\Neiroprint\\Xakaton\\Server\\C#\\MyParserC#\\MyParser\\MyParser.csproj",
->>>>>>> f26ce65ddf8d42eed68e99dcf2828a3cace2a1ee:Server/C#/MyParserC#/MyParser/obj/project.nuget.cache
+  "projectFilePath": "C:\\Code\\Neiroprint\\Xakaton\\Server\\ParserAndMore\\MyParser\\MyParser.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stepa\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\stepa\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

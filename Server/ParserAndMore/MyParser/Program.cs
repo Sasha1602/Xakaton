@@ -1,6 +1,4 @@
-﻿using System;
-using System.Net;
-using HtmlAgilityPack;
-using MyParser;
+﻿using MyParser;
 
-ParserTest.Parse();
+ParserTest.Parse(); //ToDo: Create Api project (MVC / Web Api / with React)
+
