@@ -1,0 +1,17 @@
+C:\Code\CSharp\MyParser\MyParser\MyParser\bin\Debug\net7.0\MyParser.exe
+C:\Code\CSharp\MyParser\MyParser\MyParser\bin\Debug\net7.0\MyParser.deps.json
+C:\Code\CSharp\MyParser\MyParser\MyParser\bin\Debug\net7.0\MyParser.runtimeconfig.json
+C:\Code\CSharp\MyParser\MyParser\MyParser\bin\Debug\net7.0\MyParser.dll
+C:\Code\CSharp\MyParser\MyParser\MyParser\bin\Debug\net7.0\MyParser.pdb
+C:\Code\CSharp\MyParser\MyParser\MyParser\bin\Debug\net7.0\HtmlAgilityPack.dll
+C:\Code\CSharp\MyParser\MyParser\MyParser\obj\Debug\net7.0\MyParser.csproj.AssemblyReference.cache
+C:\Code\CSharp\MyParser\MyParser\MyParser\obj\Debug\net7.0\MyParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\CSharp\MyParser\MyParser\MyParser\obj\Debug\net7.0\MyParser.AssemblyInfoInputs.cache
+C:\Code\CSharp\MyParser\MyParser\MyParser\obj\Debug\net7.0\MyParser.AssemblyInfo.cs
+C:\Code\CSharp\MyParser\MyParser\MyParser\obj\Debug\net7.0\MyParser.csproj.CoreCompileInputs.cache
+C:\Code\CSharp\MyParser\MyParser\MyParser\obj\Debug\net7.0\MyParser.csproj.CopyComplete
+C:\Code\CSharp\MyParser\MyParser\MyParser\obj\Debug\net7.0\MyParser.dll
+C:\Code\CSharp\MyParser\MyParser\MyParser\obj\Debug\net7.0\refint\MyParser.dll
+C:\Code\CSharp\MyParser\MyParser\MyParser\obj\Debug\net7.0\MyParser.pdb
+C:\Code\CSharp\MyParser\MyParser\MyParser\obj\Debug\net7.0\MyParser.genruntimeconfig.cache
+C:\Code\CSharp\MyParser\MyParser\MyParser\obj\Debug\net7.0\ref\MyParser.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IxtQencitELckxfcbHMouR6vniRxI9QJ7wqWHaVdtJDeSYHXk2+ADdlq/FPpdIn4vNuXlU07tcjkarRlc0aPBQ==",
+  "success": true,
+  "projectFilePath": "C:\\Code\\Hackaton\\Xakaton\\MyParserC#\\MyParser\\MyParser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stepa\\.nuget\\packages\\htmlagilitypack\\1.11.54\\htmlagilitypack.1.11.54.nupkg.sha512"
+  ],
+  "logs": []
+}
