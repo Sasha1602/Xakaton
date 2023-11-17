@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3acc5e1-ac39-410a-ae31-bb090678f354" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Server/C#/MyParserC#/MyParser/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Server/C#/MyParserC#/MyParser/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Xakaton.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Xakaton.dir/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,11 @@
     </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Server/ParserAndMore/MyParser/ParserModis.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Server/ParserAndMore/MyParser/ParserTest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Server/ParserAndMore/MyParser/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -87,6 +92,10 @@
       <workItem from="1699472417688" duration="275000" />
       <workItem from="1699472887109" duration="1107000" />
       <workItem from="1699474092001" duration="353000" />
+      <workItem from="1699474486448" duration="1408000" />
+      <workItem from="1699550119679" duration="46000" />
+      <workItem from="1700226131160" duration="147000" />
+      <workItem from="1700226375682" duration="39000" />
     </task>
     <servers />
   </component>
