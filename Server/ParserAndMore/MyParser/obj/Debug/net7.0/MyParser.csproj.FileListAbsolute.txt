@@ -15,3 +15,11 @@ C:\Code\CSharp\MyParser\MyParser\MyParser\obj\Debug\net7.0\refint\MyParser.dll
 C:\Code\CSharp\MyParser\MyParser\MyParser\obj\Debug\net7.0\MyParser.pdb
 C:\Code\CSharp\MyParser\MyParser\MyParser\obj\Debug\net7.0\MyParser.genruntimeconfig.cache
 C:\Code\CSharp\MyParser\MyParser\MyParser\obj\Debug\net7.0\ref\MyParser.dll
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\MyParser\obj\Debug\net7.0\MyParser.csproj.AssemblyReference.cache
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\MyParser\obj\Debug\net7.0\MyParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\MyParser\obj\Debug\net7.0\MyParser.AssemblyInfoInputs.cache
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\MyParser\obj\Debug\net7.0\MyParser.AssemblyInfo.cs
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\MyParser\obj\Debug\net7.0\MyParser.csproj.CoreCompileInputs.cache
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\MyParser\obj\Debug\net7.0\MyParser.dll
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\MyParser\obj\Debug\net7.0\refint\MyParser.dll
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\MyParser\obj\Debug\net7.0\MyParser.pdb

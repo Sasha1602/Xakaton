@@ -1,5 +1,6 @@
 ﻿namespace ShopParser;
 
+using MongoDB.Bson;
 using HtmlAgilityPack;
 using System.Net;
 using System.Text.RegularExpressions;
@@ -17,7 +18,7 @@ public class ParserModis
         "https://modis.ru/children/",
     };
 
-    public static string? ExtractValueFromJs(string pageCode, string key, string pattern)
+    /*public static string? ExtractValueFromJs(string pageCode, string key, string pattern)
     {
         var regex = new Regex(pattern);
         var match = regex.Match(pageCode);
@@ -28,12 +29,16 @@ public class ParserModis
             return value;
         }
         return null;
-    }
+    }*/
     
     public static void ParseModis()
     {
+        
         var mongoClient = new MongoClient("mongodb://localhost");
         var mongoDb = mongoClient.GetDatabase("XakaDB");
+        mongoDb.CreateCollection("myphotodb");
+        var collection = mongoDb.GetCollection<BsonDocument>("myphotodb");
+        
         for (int i = 0; i < links.Length; i++)
         {
             var link = links[i];
@@ -62,21 +67,18 @@ public class ParserModis
                     var srcFind = srcCode.GetAttributeValue("src", "");
                     Console.WriteLine(srcFind);
                     
-                    /*string fileName = $"image_{Guid.NewGuid()}.jpg";
-                    webClient.DownloadFile("https:" + srcFind, //folder + "/" + fileName);
+                    string fileName = $"image_{Guid.NewGuid()}.jpg";
+                    webClient.DownloadFile("https:" + srcFind, "modis"+ "/" + fileName);
                     if (!String.IsNullOrEmpty(srcFind))
                     {
                         var doc = new BsonDocument
                         {
                             { "imageSrc", fileName },
-                            { "color", color },
-                            { "tone", tone },
-                            { "name", name }
                         };
 
                         collection.InsertOne(doc);
                     }
-                    Console.WriteLine($"Downlad file \"{fileName}\".");*/
+                    Console.WriteLine($"Downlad file \"{fileName}\".");
                 }
                 
             }
