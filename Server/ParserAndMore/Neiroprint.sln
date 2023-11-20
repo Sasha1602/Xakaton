@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyParser", "MyParser\MyParser.csproj", "{1CF8B5BC-E27E-45FC-AB94-6AA99A07E332}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{439E8990-84D5-4C66-A56D-0103AEDE4065}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{1B97E5CD-5AA1-464A-A7CD-442A82CE6564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{8C6D399A-10DE-462E-A8D5-775652CF399E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{5FEA6773-CF23-48EF-9DC1-05197CAD1273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{DB761766-C8A1-4E2E-9510-7D966A9F6CA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neiroprint.API", "Neiroprint.API\Neiroprint.API.csproj", "{1D737359-351C-4E11-B231-DF33C409D9E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CF8B5BC-E27E-45FC-AB94-6AA99A07E332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF8B5BC-E27E-45FC-AB94-6AA99A07E332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF8B5BC-E27E-45FC-AB94-6AA99A07E332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF8B5BC-E27E-45FC-AB94-6AA99A07E332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C6D399A-10DE-462E-A8D5-775652CF399E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6D399A-10DE-462E-A8D5-775652CF399E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6D399A-10DE-462E-A8D5-775652CF399E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6D399A-10DE-462E-A8D5-775652CF399E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB761766-C8A1-4E2E-9510-7D966A9F6CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB761766-C8A1-4E2E-9510-7D966A9F6CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB761766-C8A1-4E2E-9510-7D966A9F6CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB761766-C8A1-4E2E-9510-7D966A9F6CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D737359-351C-4E11-B231-DF33C409D9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D737359-351C-4E11-B231-DF33C409D9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D737359-351C-4E11-B231-DF33C409D9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D737359-351C-4E11-B231-DF33C409D9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C6D399A-10DE-462E-A8D5-775652CF399E} = {1B97E5CD-5AA1-464A-A7CD-442A82CE6564}
+		{DB761766-C8A1-4E2E-9510-7D966A9F6CA2} = {5FEA6773-CF23-48EF-9DC1-05197CAD1273}
+		{1D737359-351C-4E11-B231-DF33C409D9E8} = {439E8990-84D5-4C66-A56D-0103AEDE4065}
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3ED1E9C0-E596-475D-B7D4-C90AD7ED86C2}
+	EndGlobalSection
+EndGlobal
