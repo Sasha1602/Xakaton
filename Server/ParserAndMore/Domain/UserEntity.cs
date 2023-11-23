@@ -1,7 +1,12 @@
-﻿namespace Domain;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Domain;
 
 public class UserEntity
 {
+    [Key]
+    public Guid Id { get; private set; }
+    
     private string _password;
 
     private string _login;
@@ -30,6 +35,11 @@ public class UserEntity
             _login = value;
         }
     }
-    
-    public Guid Id { get; private set; }
+
+    public UserEntity(string password, string login)
+    {
+        _password = password;
+        _login = login;
+        Id = Guid.NewGuid();
+    }
 }

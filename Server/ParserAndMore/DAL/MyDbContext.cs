@@ -6,6 +6,12 @@ namespace DAL;
 public class MyDbContext : DbContext //ToDo: migrate to MySql database
 {
     public DbSet<UserEntity> Users = null!;
+
+    public DbSet<ImageEntity> Images = null!;
+
+    public DbSet<ResponseEntity> Responses = null!;
+
+    public DbSet<RequestEntity> Requsets = null!;g
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
