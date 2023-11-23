@@ -11,7 +11,7 @@ public class MyDbContext : DbContext //ToDo: migrate to MySql database
 
     public DbSet<ResponseEntity> Responses = null!;
 
-    public DbSet<RequestEntity> Requsets = null!;g
+    public DbSet<RequestEntity> Requsets = null!;
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

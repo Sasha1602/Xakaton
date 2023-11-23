@@ -7,6 +7,8 @@ using System.IO;
 using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using System.Text;
+using DAL;
+using Domain;
 
 namespace MyParser
 {
@@ -39,13 +41,10 @@ namespace MyParser
 
         public static void Parse()
         {
-            var mongoClient = new MongoClient("mongodb://localhost");
-            var mongoDb = mongoClient.GetDatabase("XakaDB");
+            using MyDbContext dbContext = new MyDbContext();
 
             for (int i = 0; i < links.Length; i++)
             {
-                mongoDb.CreateCollection("myphotodb" + i);
-                var collection = mongoDb.GetCollection<BsonDocument>("myphotodb" + i);
                 var link = links[i];
 
                 // бегаем по страницам
@@ -88,20 +87,20 @@ namespace MyParser
                         client.DownloadFile("https:" + imageSrc, folder + "/" + fileName);
                         if (!String.IsNullOrEmpty(imageSrc))
                         {
-                            var doc = new BsonDocument
-                                {
-                                    { "imageSrc", fileName },
-                                    { "color", color },
-                                    { "tone", tone },
-                                    { "name", name }
-                                };
+                            var image = new ImageEntity()
+                            {
+                                ClotheType = name,
+                                Color = color,
+                                Tone = tone,
+                                ImagePath = folder + "/" + fileName,
+                            };
 
-                            collection.InsertOne(doc);
+                           dbContext.Images.Add(image);
+                           dbContext.SaveChanges();
                         }
                         Console.WriteLine($"Downlad file \"{fileName}\".");
                     }
                 }
-
             }
 
             Console.WriteLine("Parsing end.");
