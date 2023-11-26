@@ -11,5 +11,5 @@ public class RequestEntity
 
     public DateTime creationDate { get; set; }
 
-    public ImageEntity? Image { get; set; }
+    public ImageEntity? Photo { get; set; }
 }

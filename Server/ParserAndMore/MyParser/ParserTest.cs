@@ -14,7 +14,7 @@ namespace MyParser
 {
     public class ParserTest
     {
-        public static int maxPages = 50;
+        public static int maxPages = 1;
 
         public static string[] links =
             {
