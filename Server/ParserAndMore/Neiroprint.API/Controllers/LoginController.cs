@@ -14,8 +14,8 @@ namespace WebApplication1.Controllers
     {
         List<UserEntity> persons = new List<UserEntity>
         {
-            new UserEntity("admin", "admin"),
-            new UserEntity("123", "123"),
+            new UserEntity {Login = "admin", Password = "admin"},
+            new UserEntity { Login = "123", Password = "123"},
         };
 
         [HttpGet]
@@ -27,36 +27,28 @@ namespace WebApplication1.Controllers
 
         [HttpPost]
         [Route("api/CreateUser")]
-        public async Task CreateUser( HttpRequest request)
+        public async Task CreatePerson([FromBody] UserEntity person)
         {
             try
             {
-                var userData = await request.ReadFromJsonAsync<UserEntity>();
-
-                if (userData != null)
+                // check request params
+                if (person != null)
                 {
-                    var user = persons.FirstOrDefault(u => u.Id == userData.Id);
-
-                    if (user != null)
-                    {
-                        await Response.WriteAsJsonAsync(user);
-                    }
-                    else
-                    {
-                        user = new UserEntity(userData.Login, userData.Password);
-                        persons.Add(user);
-                        await Response.WriteAsJsonAsync(user);
-                    }
+                    // set new user's Id
+                    person.Id = Guid.NewGuid().ToString();
+                    // add user to database
+                    persons.Add(person);
+                    await Response.WriteAsJsonAsync(person);
                 }
                 else
                 {
-                    Response.StatusCode = 400;
-                    await Response.WriteAsJsonAsync(new { message = "Not correct data" });
+                    throw new Exception("Not correct data");
                 }
             }
-            catch (Exception exception)
+            catch (Exception)
             {
-                Console.WriteLine(exception);
+                Response.StatusCode = 400;
+                await Response.WriteAsJsonAsync(new { message = "Not correct data" });
             }
         }
     }
