@@ -5,7 +5,7 @@ namespace Domain;
 public class UserEntity
 {
     [Key]
-    public Guid Id { get; private set; }
+    public string Id { get; private set; }
     
     private string _password;
 
@@ -36,10 +36,10 @@ public class UserEntity
         }
     }
 
-    public UserEntity(string password, string login)
+    public UserEntity(string login, string password)
     {
         _password = password;
         _login = login;
-        Id = Guid.NewGuid();
+        Id = Guid.NewGuid().ToString();
     }
 }

@@ -410,16 +410,16 @@
     ]
   },
   "packageFolders": {
-    "C:\\Code\\Neiroprint\\Xakaton\\Server\\ParserAndMore\\Neiroprint.API\\obj\\.store\\.stage\\nhbxpany.waq": {}
+    "C:\\Code\\Neiroprint\\Xakaton\\Server\\ParserAndMore\\Neiroprint.API\\obj\\.store\\.stage\\3d03d2k2.b0z": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stepa\\AppData\\Local\\Temp\\b8fa5c37-9ad8-4635-bbf5-e3011fa656b4\\restore.csproj",
+      "projectUniqueName": "C:\\Users\\stepa\\AppData\\Local\\Temp\\41c60244-7080-4451-b6dc-503bfc5d4910\\restore.csproj",
       "projectName": "restore",
-      "projectPath": "C:\\Users\\stepa\\AppData\\Local\\Temp\\b8fa5c37-9ad8-4635-bbf5-e3011fa656b4\\restore.csproj",
-      "packagesPath": "C:\\Code\\Neiroprint\\Xakaton\\Server\\ParserAndMore\\Neiroprint.API\\obj\\.store\\.stage\\nhbxpany.waq",
-      "outputPath": "C:\\Code\\Neiroprint\\Xakaton\\Server\\ParserAndMore\\Neiroprint.API\\obj\\.store\\.stage\\nhbxpany.waq\\",
+      "projectPath": "C:\\Users\\stepa\\AppData\\Local\\Temp\\41c60244-7080-4451-b6dc-503bfc5d4910\\restore.csproj",
+      "packagesPath": "C:\\Code\\Neiroprint\\Xakaton\\Server\\ParserAndMore\\Neiroprint.API\\obj\\.store\\.stage\\3d03d2k2.b0z",
+      "outputPath": "C:\\Code\\Neiroprint\\Xakaton\\Server\\ParserAndMore\\Neiroprint.API\\obj\\.store\\.stage\\3d03d2k2.b0z\\",
       "projectStyle": "DotnetToolReference",
       "configFilePaths": [
         "C:\\Users\\stepa\\AppData\\Roaming\\NuGet\\NuGet.Config"
