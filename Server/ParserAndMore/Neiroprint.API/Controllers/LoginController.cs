@@ -17,7 +17,6 @@ namespace WebApplication1.Controllers
         };*/
 
         [HttpGet]
-        [Route("api/GetAllUsers")]
         public async Task GetAllUsers()
         {
             var collection = dbContext.Users.ToList();
@@ -31,10 +30,10 @@ namespace WebApplication1.Controllers
             try
             {
                 //Check user is not already exist
-                //var user = dbContext.Users.ToList().FirstOrDefault(user => user.Login == person.Login);
+                var user = dbContext.Users.ToList().FirstOrDefault(user => user.Login == person.Login);
                 
                 // check request params
-                if (person != null)
+                if (user == null)
                 {
                     // set new user's Id
                     person.Id = Guid.NewGuid().ToString();
@@ -57,7 +56,6 @@ namespace WebApplication1.Controllers
         }
         
         [HttpDelete]
-        [Route("DeleteUser")]
         public async Task DeleteUser([FromBody] string? id)
         {
             var persons = dbContext.Users;
