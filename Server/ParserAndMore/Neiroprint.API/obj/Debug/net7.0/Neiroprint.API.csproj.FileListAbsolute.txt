@@ -224,3 +224,12 @@ C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Neiroprint.API\obj\Debug\net7.0\
 C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Neiroprint.API\obj\Debug\net7.0\ref\Neiroprint.API.dll
 C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Neiroprint.API\bin\Debug\net7.0\Domain.dll
 C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Neiroprint.API\bin\Debug\net7.0\Domain.pdb
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Neiroprint.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Neiroprint.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Neiroprint.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Neiroprint.API\bin\Debug\net7.0\MySqlConnector.dll
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Neiroprint.API\bin\Debug\net7.0\Npgsql.dll
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Neiroprint.API\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Neiroprint.API\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Neiroprint.API\bin\Debug\net7.0\DAL.dll
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Neiroprint.API\bin\Debug\net7.0\DAL.pdb

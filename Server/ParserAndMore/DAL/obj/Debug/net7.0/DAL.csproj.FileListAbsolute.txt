@@ -13,3 +13,5 @@ C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\DAL\obj\Debug\net7.0\DAL.dll
 C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\DAL\obj\Debug\net7.0\refint\DAL.dll
 C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\DAL\obj\Debug\net7.0\DAL.pdb
 C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\DAL\obj\Debug\net7.0\ref\DAL.dll
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\DAL\bin\Debug\net7.0\DAL.runtimeconfig.json
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\DAL\obj\Debug\net7.0\DAL.genruntimeconfig.cache
