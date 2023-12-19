@@ -9,3 +9,4 @@ C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Domain\obj\Debug\net7.0\Domain.d
 C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Domain\obj\Debug\net7.0\refint\Domain.dll
 C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Domain\obj\Debug\net7.0\Domain.pdb
 C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
