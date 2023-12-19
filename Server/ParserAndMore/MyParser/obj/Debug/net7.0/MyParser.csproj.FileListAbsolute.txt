@@ -66,3 +66,5 @@ C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\MyParser\bin\Debug\net7.0\Domain
 C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\MyParser\obj\Debug\net7.0\MyParser.csproj.CopyComplete
 C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\MyParser\obj\Debug\net7.0\MyParser.genruntimeconfig.cache
 C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\MyParser\obj\Debug\net7.0\ref\MyParser.dll
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\MyParser\bin\Debug\net7.0\Npgsql.dll
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\MyParser\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
