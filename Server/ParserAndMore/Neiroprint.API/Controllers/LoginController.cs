@@ -36,12 +36,15 @@ namespace WebApplication1.Controllers
                 if (user == null)
                 {
                     // set new user's Id
-                    person.Id = Guid.NewGuid().ToString();
+                    user = new UserEntity();
                     // add user to database
-                    await dbContext.Users.AddAsync(person);
+                    user.Id = Guid.NewGuid().ToString();
+                    user.Login = person.Login;
+                    user.SetPassword(user.Password);
+                    await dbContext.Users.AddAsync(user);
                     await dbContext.SaveChangesAsync();
                     // send entity back
-                    await Response.WriteAsJsonAsync(person);
+                    await Response.WriteAsJsonAsync(user);
                 }
                 else
                 {
@@ -84,13 +87,39 @@ namespace WebApplication1.Controllers
                 }
                 else
                 {
-                    
+                    // request body is null
                     Response.StatusCode = 404;
                     await Response.WriteAsJsonAsync(new { message = "Not Found" });
 
                 }
             }
             catch(Exception)
+            {
+                await Response.WriteAsJsonAsync(new { message = "Not correct data" });
+            }
+        }
+
+        [HttpGet]
+        public async Task VerifyUser([FromBody] UserEntity? user)
+        {
+            try
+            {
+                if (user != null)
+                {
+                    var person = dbContext.Users.FirstOrDefault(u => u.Id == user.Id);
+
+                    if (person != null && person.VerifyPassword(user.Password.ToString()))
+                    {
+                        await Response.WriteAsJsonAsync(person);
+                    }
+                }
+                else
+                {
+                    Response.StatusCode = 404;
+                    await Response.WriteAsJsonAsync(new { message = "Not Fount" });
+                }
+            }
+            catch (Exception)
             {
                 await Response.WriteAsJsonAsync(new { message = "Not correct data" });
             }
