@@ -56,23 +56,43 @@ namespace WebApplication1.Controllers
         }
         
         [HttpDelete]
-        public async Task DeleteUser([FromBody] string? id)
+        public async Task DeleteUser([FromBody] UserEntity? user)
         {
-            var persons = dbContext.Users;
-            // Check current Id is exist
-            var user = persons.FirstOrDefault(u => u.Id == id);
+            try
             {
+                //check request body not null
                 if (user != null)
                 {
-                    //Delete user from db
-                    persons.Remove(user);
-                    await Response.WriteAsJsonAsync(user);
+                    // Check current Id is exist in database
+                    var person = dbContext.Users.FirstOrDefault(u => u.Id == user.Id);
+                    
+                    if (person != null)
+                    {
+                        //delete user
+                        dbContext.Users.Remove(person);
+                        await dbContext.SaveChangesAsync();
+                        //return deleted user back
+                        await Response.WriteAsJsonAsync(person);
+                    }
+                    else
+                    {
+                        // user is not exist in database
+                        Response.StatusCode = 404;
+                        await Response.WriteAsJsonAsync(new { message = "Not Found" });
+
+                    }
                 }
                 else
                 {
+                    
                     Response.StatusCode = 404;
-                    await Response.WriteAsJsonAsync(new {mewssage = "User not found."});
+                    await Response.WriteAsJsonAsync(new { message = "Not Found" });
+
                 }
+            }
+            catch(Exception)
+            {
+                await Response.WriteAsJsonAsync(new { message = "Not correct data" });
             }
         }
     }
