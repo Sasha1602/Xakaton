@@ -5,13 +5,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplication1.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
     public class LoginController : ControllerBase
     {
         public MyDbContext dbContext = new MyDbContext();
         
         [HttpGet]
+        [Route("getAllUsers")]
         public async Task GetAllUsers()
         {
             var collection = dbContext.Users.ToList();
@@ -20,12 +20,13 @@ namespace WebApplication1.Controllers
         
         
         [HttpPost]
-        public async Task CreatePerson([FromBody] UserEntity person)
+        [Route("createAccount")]
+        public async Task CreatePerson(string? login, string? password)
         {
             try
             {
                 //Check user is not already exist
-                var user = dbContext.Users.ToList().FirstOrDefault(user => user.Login == person.Login);
+                var user = dbContext.Users.ToList().FirstOrDefault(user => user.Login == login);
                 
                 // check request params
                 if (user == null)
@@ -34,8 +35,8 @@ namespace WebApplication1.Controllers
                     user = new UserEntity();
                     // add user to database
                     user.Id = Guid.NewGuid().ToString();
-                    user.Login = person.Login;
-                    user.SetPassword(user.Password);
+                    user.Login = login;
+                    user.SetPassword(password.ToCharArray());
                     await dbContext.Users.AddAsync(user);
                     await dbContext.SaveChangesAsync();
                     // send entity back
@@ -54,6 +55,7 @@ namespace WebApplication1.Controllers
         }
         
         [HttpDelete]
+        [Route("deleteAccount")]
         public async Task DeleteUser([FromBody] UserEntity? user)
         {
             try
@@ -95,16 +97,16 @@ namespace WebApplication1.Controllers
         }
 
         [HttpGet]
-        [Route("login")]
-        public async Task VerifyUser([FromBody] UserEntity? user)
+        [Route("Login")]
+        public async Task VerifyUser(string? login, string? password)
         {
             try
             {
-                if (user != null)
+                if (login != null && password != null)
                 {
-                    var person = dbContext.Users.FirstOrDefault(u => u.Id == user.Id);
+                    var person = dbContext.Users.FirstOrDefault(u => u.Login == login);
 
-                    if (person != null && person.VerifyPassword(user.Password.ToString()))
+                    if (person != null && person.VerifyPassword(password))
                     {
                         await Response.WriteAsJsonAsync(person);
                     }
