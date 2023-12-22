@@ -1,0 +1,12 @@
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Domain\bin\Debug\net7.0\Domain.dll
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Domain\obj\Debug\net7.0\Domain.dll
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Code\Neiroprint\Xakaton\Server\ParserAndMore\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache

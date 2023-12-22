@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a29a5549-6bbd-4e49-ae44-d5297c6bc7ac" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/ParserTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/ParserTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/MyParser.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/MyParser.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/MyParser.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/MyParser.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/MyParser.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/MyParser.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/MyParser.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/MyParser.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_020eb085-c882-4af3-a1e1-4bfcba832029.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_037a15bc-cc48-4ea5-85ce-88ebb57bfc6e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_056524d5-cb88-4ba9-b9f4-d580d01f885f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_068280e6-a898-4af4-91d5-a2576d2c98af.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_092ebf35-3af9-451a-b682-9ef423c836d1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_0a98998d-295a-472f-bd78-9608ff160129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_0b4b8107-2c43-4bb1-9841-4220d336ec1a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_0bc00d1e-9999-4319-af28-e4ee2bc6a018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_0bda61fc-2d72-441f-8790-897ff4e61a0d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_0e62bfcb-2a2b-4374-86f2-a4ff5de92eea.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_0e965ba5-9065-4aa3-beb0-850ca003b483.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_0ebcdf85-dc91-4354-86ce-4ab853deeadf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_0f600377-3406-4bd8-a175-8ed2acf17139.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_10b01c90-4c0f-4119-af4b-5771ed4e8656.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_127b0cce-68f0-40ca-8382-d9c4e8cc808e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_127beef4-0be4-4662-b4a4-db86bb20cc41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_139185c9-4fb6-4528-a2cc-34d71260c88c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_14f2ecff-1ce2-488f-827e-572812976edb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_15313c0e-c0f5-4a1b-9ddc-9a0fa23fd16b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_16151d9c-76ba-4609-be4d-bd9bb2f84ef2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_167b6cca-8328-4e1b-a260-121c5f107e3b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_1684504f-55a6-41e4-8d2c-e6c53930c4bc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_16d87f53-d513-46c6-a852-cac36cccd757.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_17085639-b053-4307-a05f-c178dd8b9d04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_180b42b3-258c-40ea-839f-c7ae5374a00f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_1a7fbc65-af20-4766-bc40-885f4b63a98c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_1ace5f53-da0e-4734-9807-992aeb70c0e7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_1c22cd55-7656-4803-9f08-e4a4f2b6627d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_1d424312-0918-4ad7-b844-4c5b06f15b3f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_1e000375-a4d7-480c-bd8b-46af409de791.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_1e27c184-0594-45af-965a-ab3398d81b34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_1f1994ae-6eb5-4661-a972-573da8e76694.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_1fe42244-761d-46bc-ae4c-166a069a2064.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_20d9c838-9cd7-48f4-8913-c26261c9e97f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_20fc2508-32f9-4830-be9f-ff24d7e36e79.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_214217be-f74e-4ad1-a3a2-7c9bed6861d8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_235585cc-9dd0-46cc-bc4f-88079765d6ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_2426dbd1-557e-4fe6-8444-09aca04c3379.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_253f2570-c5c7-477d-8f3b-0f7539d4e1f7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_263b96ec-aba2-48f5-8c8a-b6382b572fb2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_278785e2-77f1-4b62-9a05-ad68551a0eef.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_287e3180-0145-4e98-9fc7-101258d68697.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_28d430b9-15de-46f4-acf1-2bcef86e8bc6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_296678a6-569f-48b6-9a15-203203f4e72c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_299193fc-0e6c-400c-af2d-74ba06ea6230.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_29c28edc-001a-406f-95ed-7cdee63cd0d2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_2a3b34a5-5eee-4d7b-951d-9ce367729585.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_2afc98ef-b1c9-48b2-8682-db6ed34833ee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_2c39604a-e482-4059-bdc6-bd86aa716c3b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_2dd4746b-c04a-41b2-a777-c8950385f73f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_2e3fb7e8-89c2-4fe9-b632-cb9749ffca89.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_2fbdd9f9-91e9-477e-830d-0487b87c3c5f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_31fe0b83-b168-47b4-ad36-1a25bc371e93.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_33364edf-5467-47af-a977-5c078fb2d5ea.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_335bb449-9100-4351-9295-1bb6c53e8008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_34c7f7af-62b2-4abe-9738-c9cbc054596e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_35748a30-d093-4031-9e04-4762a84a1806.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_36650fb5-3d6e-4784-b90f-9b9c4890fe59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_3710b85a-3622-434a-af43-189c7552f87e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_3725d6bf-e898-439e-bd26-da98b51fa8ef.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_372c7bbe-77f3-4a88-902c-da78eab635ec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_376eab90-9726-44e0-9c1f-c995b89666f7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_3778f433-b641-414a-8339-c156a3d23029.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_37da9bf0-7e08-4607-8be5-869daeb0cca5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_384c315e-2f4e-445d-a9fc-d7bd103eab00.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_38748b29-b047-4530-9223-ccf5617fca28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_3977657b-ff52-4165-95d6-90b57104eaa3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_39d2e3ff-a585-43d3-b0a3-88df415fb0d7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_3a3f56d0-13ed-4e53-86d5-7a099d71ee95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_3a561501-3b91-4532-86d2-feab0d8859f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_3c9b4e18-8c64-4223-9293-9db16b51e9b0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_3d0bc900-69e1-43eb-b1c5-8a4bcbe75d78.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_3e03f252-cea4-4d00-b643-8c7e6c839b8f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_3e1cd94c-6e3a-4d2b-9b82-9dd55a21f784.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_3e2d17f9-4cbf-4b0a-8462-3026dbc1832b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_41045fd1-2ea7-4a47-a777-a78406b99a47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_41886cc0-a913-4c58-8e2d-41f6e3fd3656.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_418b8056-382e-44c5-8d41-1f5b6224be04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_44f27cc9-75bc-4fd3-aae5-5dabc7368001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_4544d3ca-6963-40b4-b696-ec309cacd17c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_462ff368-8c09-453b-9f81-45bf5fc86515.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_467289eb-afe8-4e95-9d94-2efb1f05feee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_4778b2f8-6da3-4422-b4ad-1e87adb448d6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_4953d54f-f9cf-47dd-9f50-dca46a36b4db.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_4a4099d4-dda5-4c7c-8673-d161dd3ab925.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_4a8fd17c-7819-4481-8b84-78a844112668.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_4bd24d3c-d811-4e84-a18f-0638f269a8d6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_4cb67a62-a2b9-45ae-96d0-a2018dfaefd8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_4dc27dc6-29f4-4c7f-b960-6a6546d4d354.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_4dd5464f-cad0-44f9-91c6-14415cdecd47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_4dde72c0-a48e-46b8-bc21-fbf631f9f0aa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_4ec92165-1c69-43be-a476-7173724c0e4a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_4f314a6f-47d1-4762-a390-490ec768c29d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_4f988bfa-eb81-4877-9f1d-69bf3cbbe135.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_52b0f552-fc75-4be3-b10c-15eaa12a579f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_53d34624-a9f2-4b31-908d-4fd1d9a8fe5f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_56346d77-b23d-457d-80ea-f95ad37b2a14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_5683989f-0021-43f6-bb2e-bef06955502f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_583cd376-ad53-4e02-834b-ae67e8540e53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_59a5b717-e163-4f8f-9bfe-3ac58c674aa4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_5a3c2ae4-df7f-4126-b93d-eabb7bb674e8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_5a93ae86-b8c1-4aa7-9386-db0c00c8076c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_5ce16b79-b339-490c-9994-46419f8410ff.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_5d2195c7-25a2-4e1c-bbc8-f5ef54d3f839.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_5dac58bc-dc2f-4fe3-94a2-8b7495cf2b57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_5e3dc50a-18d2-4f55-8f88-c93f17d429b9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_6075e183-b0fc-4b82-baec-c27bd15915d9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_627be6c0-dc11-4f80-adb2-ceab692b19f0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_62ce41ac-3c55-4cc0-9aae-f938014ad3c4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_668c6f27-516c-44bf-b97c-bac9a22be09a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_6720bdf1-c79b-4804-9617-3768f57f1bc5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_67f9a2ad-bd60-496f-868e-37260def8f51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_69feb910-49fd-4b98-989d-d709b43207f9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_6a465c9d-1b84-40ce-9a02-29dc8167656a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_6aced3a1-c55f-4f9f-bb06-e27130ee2fb8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_6e049d9b-ce4b-475e-aabb-414ad86e4bac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_6e747a84-21b5-4f62-9818-ae34766c05de.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_6f8a6c62-a55d-42d9-bf1d-f5fe52fb4617.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_73c906d3-f581-4c02-8bdb-57932294659e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_73fd3abd-0302-48f1-961a-330d75ba3373.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_74fb2193-465f-43b1-882b-80bb93d6c546.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_752916a7-a50f-4646-944f-7efa04ee3b70.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_75fc5871-cf0b-48e3-b83b-cca3ac6a0288.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_777ec941-3faa-4537-828a-23200909088f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_77c6f8e8-ab1c-4900-92ff-972cd6a9a7ec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_77dd3a1c-6d59-4b19-9027-ca537eca1207.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_77e83b2a-af24-4242-9e34-4b39b539e497.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_7afc14e3-02df-499a-bcb8-1cbd8edd0988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_7b7afddc-7390-4394-a4a8-0f17c09798c6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_7b7b8eb9-595c-4ba7-a9e9-69c906f6ae71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_7c2204c3-bc70-42fc-8e99-9c710759fe63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_7d2316a0-fb69-4e4f-94f1-3cc00141d086.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_7d4efd22-fbb4-4398-b7d1-c21987c84d8c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_7dd255f9-e110-448a-b004-520375ac5ff6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_80d48891-e3d4-49f2-b3b9-712b07194dc0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_81a55b83-2314-4f1f-9882-b085eef56c05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_81d7b3e0-f80d-4a59-92bb-6f124dfbc3a6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_81efe3aa-b9d0-49c0-93b3-b90b9113adad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_830498d8-8559-4507-89c1-95edd1f8e85d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_838b511a-ee04-4574-b149-a339c50bac55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_83c52b17-8f4b-48ae-a4ee-b2f7d28ed26c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_83fe53ac-813b-4194-934c-4e1b23ef3856.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_876a728d-97c0-4701-9b3d-44598179fee6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_888428c0-32ab-4911-b85c-f095316c790b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_88f37ede-f8a0-4f72-8c09-9d88adf40702.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_8a032d84-8961-4b35-b1da-a03e140a99e2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_8bbd9f47-394e-4cc0-8a74-1cd882088110.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_8d02fcda-f701-46b1-ad0f-b6130f5da067.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_8e33aa1b-dfb3-49c1-939d-f938917d5c7d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_8e4a3ae8-486f-43a3-a9d7-0cdbc089e9ae.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_8e73c58a-93b2-48e2-ae95-a2cfabcd859e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_8eeb6e70-adce-493e-8261-a990259aafad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_8f318b8a-985a-4fc6-b1d7-a96b5ea0fafc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_90fd8f75-e295-4cab-a1fd-74f2d047f0a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_9282e239-692f-4dda-9df8-654e8cf16ec4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_942e4eff-ecdb-492f-b0bc-d3e15d562fcc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_9485e021-966e-4868-8a56-2308a04d60a0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_968477cc-3554-42ef-ae5c-4c5b9d5c6fe9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_976f56b1-b71d-4b84-a2af-392f36d84572.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_988dfb72-943e-4310-9d46-66fd4743bfd4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_992ddf2d-43b6-4499-800b-f377244c7d93.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_9a7577bf-3937-4c85-bcce-230b27791be5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_9b97b0bd-7843-460d-a933-bad4cecbab9e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_9e12c75f-60d4-4b19-bff7-0841fdafac46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_9f5c5ae8-4a13-4c18-906e-bfd6e5c52058.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_a196b2ea-b191-4ab7-ba38-d7994b20560f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_a26bcf3c-4616-4362-81cc-8ddd619eac8a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_a3da4896-e02d-4b5a-bba9-e17f342a62f4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_a3f215a2-ce97-4bd5-90b7-970977da5a85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_a50907cb-15d3-4b24-b597-270b427dd867.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_a63603b9-e119-4354-b96f-3e5f09813e37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_a666ff17-584a-4946-a51f-0b5f1872b43a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_a67ec6c3-b6f1-4bfe-838f-99dd399e65ef.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_a793da2a-dec0-43bd-84b5-d0f6474c7fe8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_a8151c40-a636-458e-b116-5f11d7e4c8cd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_a96a5409-2bf5-4d32-8c84-1e8f1d4f6ea3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_aabe489f-20ca-49e3-a545-ad6f92f77180.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_ab81e0d1-cc45-4813-b67c-b985636b7250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_ae6f257c-2e0b-4748-be98-223133ea755d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_ae9c9586-0ae8-4c71-b38c-5a2544665a8b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_aec3ba61-f379-47f7-8374-b78f0d0ffa09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_af4f5513-744a-48fa-ae78-afaad47c9686.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_b37db97b-9b7a-4aa7-95e8-d7e0ebe755b3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_b56a76fe-0474-466a-99ce-5a42e426559c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_b580e867-1c70-435d-96d7-651b9e18251a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_b785ca53-0f59-4ed4-91da-c18a0336594f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_b96a459f-69eb-408d-9a14-803485acb35e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_b9aa49c5-e799-452c-8ede-ea14532a4729.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_ba1124d0-271b-47d2-91a8-89b6b9c25963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_ba6a3bfb-2b1f-4dcc-a3af-7aa44ea2068d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_ba84132a-3033-4f60-86e5-e61306f34bbe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_bba53aed-f547-490d-a1b8-ccc96f62a569.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_bd1cb742-85b6-4602-9839-aefcd50a4c80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_be7217bc-9dc4-4a58-9c11-d0c9daef21d7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_c0502f5b-d065-4bbc-b172-ee69e054128a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_c2905797-0aee-4a0f-a7d8-930a39163f26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_c3928708-6b01-41c8-bbb2-1033b27e7cd7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_c420d802-e878-479d-a46d-f5036147efbb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_c48fa8cf-aec7-4d45-b2c3-cd51ddbf24ce.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_c4dabf21-1936-4a62-964d-573f656a8651.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_c5f1c9c0-db28-428f-97bb-5ef88cea0995.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_c64bf993-ffeb-40ef-b611-f4020d29fc41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_c77c34cf-31a5-4067-a3bb-3f969c463ed7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_c78b0646-384d-431c-9655-53640e0ac230.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_c7c3126a-5d58-42f6-90dc-1802d37fade5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_c828df60-3b99-44f5-b9b8-7a633f4dc2bf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_c9305782-7087-4260-9fca-ffa3f61d9932.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_c94789f0-c236-48b2-962d-c831fbcece83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_ca8c1af3-8350-4b5c-a92d-88f9a5a7c3fc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_cb3306e9-b772-4af5-8c67-0bf325c7d2c9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_cc97964d-478c-42bb-aac9-28ac3d1489bf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_d06ac1ef-1ec6-4a31-87ee-98a88942c77f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_d073ae93-bb82-444c-a718-43a594ee973d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_d17a1182-5808-418c-8654-358b15965b47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_d1a74560-8856-4307-8b41-33bddfd71d7c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_d471394b-c290-46f2-8cd4-037d1b7a5364.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_d5df76ab-e8c4-4fc6-b758-3c06be0f8c86.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_d5f19d80-442a-4339-84dd-ae5ab8859258.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_d6042490-fbaa-4d31-8473-d9a6426ffb87.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_d7812598-737d-453d-98f6-f9369a02faa7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_d87c9efc-f6ac-41a0-80b5-3092faeb5ac7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_d90795cd-1b6d-4e60-bdba-ce8e93c902c4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_d940492d-634f-466e-b70e-f34cf5e93609.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_d9815e95-84a2-4244-8587-31fe306e95c8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_da7684a4-9783-4dcb-91ac-f104e0d04d31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_db384073-7d43-411c-94ad-3166bac0b1be.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_dbd10e30-80a2-4335-afe0-d8404d43be71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_dc23551d-e499-43ae-9e3b-15f54ab31e33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_dca6ccca-5d3e-43b8-9b95-e09bea211be9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_dddef5ef-57de-4144-b3d0-d8fedbe3ec8d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_e01cfa75-b2b6-4dca-8437-9699de1074be.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_e0cb874f-ecc1-434e-b35b-10887e4870a7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_e1b0d4be-ad09-4da1-8acb-dd4d17f10508.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_e2d57b1e-fce8-40da-ac42-b78b3cf00246.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_e31ccdc5-32d6-4e88-8878-a3c14df2071b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_e3556729-2955-4249-892e-56829840c93a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_e3f684ad-addd-4544-85ea-48cfb563fc81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_e4b8a799-7950-4313-b7d5-07a95f8c986e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_e56ead61-404e-4eb4-af1a-303493bd7f4e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_e63f6bc9-d1ad-473f-9f00-8a15db94f51b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_e648a993-18f9-4892-a373-fc953a1e8d92.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_e6ae7d61-0865-423e-b4ce-3eae06faa4dd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_e6ff1fff-c120-445d-80ab-739d31144da5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_e8f384c6-0f06-42e7-ad00-e959cba5a9a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_ea1c05df-adca-473b-a585-c5e111eeede2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_eadc2980-3381-48b7-a70c-048d43003e63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_ecc630cb-db35-4105-b8d4-092dd448e8ca.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_ed5f46be-f8e7-4a9e-b39f-ec3921cc0357.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_ef27715c-7eb8-4f14-a23a-9fdcaa37d194.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_ef91afb2-788f-4961-81d2-e35a290f412e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_efe5a4f5-daf7-4886-bdc1-76545af9b2bb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_f068ba49-b3e0-42ba-9ccf-bb46b1953d6d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_f0918379-49fb-4cbe-9c64-1a54cc896f68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_f1718926-4dea-4adf-98f1-96c5c0a462f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_f23ff8c8-8add-4546-a1ed-983523a6620f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_f2977175-a298-4204-9fd0-f5846805f896.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_f3f4801f-4629-41d9-82ae-e8018cc0b073.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_f4221453-6de3-4c25-bae2-823c074b84f8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_f50bb4de-eeae-4591-8535-a1c8c1deaa65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_f574be11-631b-4434-9a62-fe115ef5ad6c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_f6207b7c-bacc-49d0-ae32-97a53b7baa06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_f63dadcf-ecdc-430e-8a6b-6caf552b896d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_f6483339-38dc-4e3b-b2e3-cacf981da055.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_f945eaf0-fe09-4d8f-a107-599406cfcfad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_f963b329-4b55-4900-9072-e081f74ca4c2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_fbecc4c9-dd84-40b5-bd57-a6cd650f3710.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_fd851992-63f5-4381-b9c5-afad610318f4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_fdbb3f12-421f-47fe-b1c0-c4a534d4f4fd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_ffe2ccf3-06ea-4ef3-ba18-2426f95f4274.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/bin/Debug/net7.0/image_fffa6584-1b8b-45db-9f4c-bda68670c888.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/obj/Debug/net7.0/MyParser.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/obj/Debug/net7.0/MyParser.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/obj/Debug/net7.0/MyParser.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/obj/Debug/net7.0/MyParser.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/obj/Debug/net7.0/MyParser.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/obj/Debug/net7.0/MyParser.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/obj/Debug/net7.0/MyParser.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/obj/Debug/net7.0/MyParser.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/obj/Debug/net7.0/MyParser.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/obj/Debug/net7.0/MyParser.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/obj/Debug/net7.0/MyParser.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/obj/Debug/net7.0/MyParser.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/obj/Debug/net7.0/MyParser.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/obj/Debug/net7.0/MyParser.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/obj/Debug/net7.0/MyParser.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/obj/Debug/net7.0/MyParser.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/obj/Debug/net7.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/obj/MyParser.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/obj/MyParser.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/obj/MyParser.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/obj/MyParser.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyParserC#/MyParser/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MyParserC#/MyParser/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parser/Parsing.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parser/Pipfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parser/TextExperiments.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parser/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parser/temp.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2WXi9DwmBZP99RZOMcuxYSpUrC4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Prog/Xakaton&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a29a5549-6bbd-4e49-ae44-d5297c6bc7ac" name="Changes" comment="" />
+      <created>1696885174068</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696885174068</updated>
+      <workItem from="1696885175388" duration="2930000" />
+      <workItem from="1697200255435" duration="2115000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Xakaton$webui.coverage" NAME="webui Coverage Results" MODIFIED="1697205193086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Xaka/stable-diffusion-webui" />
+  </component>
+</project>
