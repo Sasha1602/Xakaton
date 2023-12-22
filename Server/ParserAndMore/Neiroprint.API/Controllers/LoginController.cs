@@ -10,12 +10,7 @@ namespace WebApplication1.Controllers
     public class LoginController : ControllerBase
     {
         public MyDbContext dbContext = new MyDbContext();
-        /*private List<UserEntity> _persons = new List<UserEntity>
-        {
-            new UserEntity {Login = "admin", Password = "admin", Id = "1"},
-            new UserEntity { Login = "123", Password = "123", Id = "2"},
-        };*/
-
+        
         [HttpGet]
         public async Task GetAllUsers()
         {
@@ -100,6 +95,7 @@ namespace WebApplication1.Controllers
         }
 
         [HttpGet]
+        [Route("login")]
         public async Task VerifyUser([FromBody] UserEntity? user)
         {
             try
