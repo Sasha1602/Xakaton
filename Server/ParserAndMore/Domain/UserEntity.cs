@@ -14,7 +14,7 @@ public class UserEntity
     public string Salt { get; set; }
     public string Login { get; set; }
 
-    public List<string>? Images { get; set; }
+    public List<string> Images { get; set; }
 
     public void SetPassword(char[] password)
     {

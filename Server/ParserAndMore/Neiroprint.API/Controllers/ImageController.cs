@@ -17,15 +17,17 @@ namespace WebApplication1.Controllers
             if (dbContext.Users.FirstOrDefault(u => u.Id == userId) != null)
             {
                 var user = await dbContext.Users.FindAsync(userId);
-                var imageIdList = user!.Images;
-                var images = new List<ImageEntity>();
-
-                foreach (var imageId in imageIdList)
+                var images = user!.Images.ToList();
+                var result = new List<ImageEntity?>();
+                foreach (var img in images)
                 {
-                    images.Add(dbContext.Images.FirstOrDefault(img => img.Id == imageId));
+                    if (dbContext.Images.FirstOrDefault(i => i.Id == img) != null)
+                    {
+                        result.Add(await dbContext.Images.FindAsync(img));
+                    }
                 }
-
-                await Response.WriteAsJsonAsync(images.Where(img => img != null));
+               
+                await Response.WriteAsJsonAsync(result);
             }
             else
             {
@@ -42,20 +44,20 @@ namespace WebApplication1.Controllers
             try
             {
                 var user = dbContext.Users.FirstOrDefault(u => u.Id == userId);
-
-                if (user != null)
-                {
-                    if (dbContext.Images.FirstOrDefault(img => img.Id == imageId) != null)
+                
+                    if (user.Images != null)
                     {
-                        user.Images.Add(imageId);
-                        await Response.WriteAsJsonAsync(user);
+                        if (dbContext.Images.FirstOrDefault(img => img.Id == imageId) != null)
+                        {
+                            user.Images.Add(imageId);
+                            await Response.WriteAsJsonAsync(user);
+                        }
+                        else
+                        {
+                            Response.StatusCode = 404;
+                            await Response.WriteAsJsonAsync(new { message = "Image not found." });
+                        }
                     }
-                    else
-                    {
-                        Response.StatusCode = 404;
-                        await Response.WriteAsJsonAsync(new { message = "Image not found." });
-                    }
-                }
                 else
                 {
                     Response.StatusCode = 404;

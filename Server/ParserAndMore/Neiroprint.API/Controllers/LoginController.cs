@@ -36,6 +36,7 @@ namespace WebApplication1.Controllers
                     user.Id = Guid.NewGuid().ToString();
                     user.Login = login;
                     user.SetPassword(password.ToCharArray());
+                    user.Images = new List<string>();
                     await dbContext.Users.AddAsync(user);
                     await dbContext.SaveChangesAsync();
                     // send entity back
