@@ -14,8 +14,7 @@ namespace WebApplication1.Controllers
         [Route("getAllUsers")]
         public async Task GetAllUsers()
         {
-            var collection = dbContext.Users.ToList();
-            await Response.WriteAsJsonAsync(collection);
+            await Response.WriteAsJsonAsync(dbContext.Users.ToList());
         }
         
         

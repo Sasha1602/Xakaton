@@ -10,12 +10,12 @@ public class UserEntity
 {
     [Key]
     public string Id { get; set; }
-    
     public char[] Password { get; set; }
-    
     public string Salt { get; set; }
     public string Login { get; set; }
-    
+
+    public List<string>? Images { get; set; }
+
     public void SetPassword(char[] password)
     {
         Salt = GenerateSalt();

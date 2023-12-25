@@ -7,7 +7,7 @@ public class MyDbContext : DbContext //ToDo: migrate to MySql database
 {
     public DbSet<UserEntity> Users { get; set; }
 
-    public DbSet<ImageEntity> Images = null!;
+    public DbSet<ImageEntity> Images { get; set; } 
 
     public DbSet<ResponseEntity> Responses = null!;
 
