@@ -5,7 +5,7 @@ namespace DAL;
 
 public class MyDbContext : DbContext //ToDo: migrate to MySql database
 {
-    public DbSet<UserEntity> Users { get; set; }
+    public DbSet<UserEntity> Users { get; set; } = null!;
 
     public DbSet<ImageEntity> Images { get; set; }
 
