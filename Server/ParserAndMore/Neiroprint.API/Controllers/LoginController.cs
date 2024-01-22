@@ -5,44 +5,42 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplication1.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
     public class LoginController : ControllerBase
     {
         public MyDbContext dbContext = new MyDbContext();
-        /*private List<UserEntity> _persons = new List<UserEntity>
-        {
-            new UserEntity {Login = "admin", Password = "admin", Id = "1"},
-            new UserEntity { Login = "123", Password = "123", Id = "2"},
-        };*/
-
+        
         [HttpGet]
-        [Route("api/GetAllUsers")]
+        [Route("getAllUsers")]
         public async Task GetAllUsers()
         {
-            var collection = dbContext.Users.ToList();
-            await Response.WriteAsJsonAsync(collection);
+            await Response.WriteAsJsonAsync(dbContext.Users.ToList());
         }
         
         
         [HttpPost]
-        public async Task CreatePerson([FromBody] UserEntity person)
+        [Route("createAccount")]
+        public async Task CreatePerson(string? login, string? password)
         {
             try
             {
                 //Check user is not already exist
-                //var user = dbContext.Users.ToList().FirstOrDefault(user => user.Login == person.Login);
+                var user = dbContext.Users.ToList().FirstOrDefault(user => user.Login == login);
                 
                 // check request params
-                if (person != null)
+                if (user == null)
                 {
                     // set new user's Id
-                    person.Id = Guid.NewGuid().ToString();
+                    user = new UserEntity();
                     // add user to database
-                    await dbContext.Users.AddAsync(person);
+                    user.Id = Guid.NewGuid().ToString();
+                    user.Login = login;
+                    user.SetPassword(password.ToCharArray());
+                    user.Images = new List<string>();
+                    await dbContext.Users.AddAsync(user);
                     await dbContext.SaveChangesAsync();
                     // send entity back
-                    await Response.WriteAsJsonAsync(person);
+                    await Response.WriteAsJsonAsync(user);
                 }
                 else
                 {
@@ -57,24 +55,71 @@ namespace WebApplication1.Controllers
         }
         
         [HttpDelete]
-        [Route("DeleteUser")]
-        public async Task DeleteUser([FromBody] string? id)
+        [Route("deleteAccount")]
+        public async Task DeleteUser([FromBody] UserEntity? user)
         {
-            var persons = dbContext.Users;
-            // Check current Id is exist
-            var user = persons.FirstOrDefault(u => u.Id == id);
+            try
             {
+                //check request body not null
                 if (user != null)
                 {
-                    //Delete user from db
-                    persons.Remove(user);
-                    await Response.WriteAsJsonAsync(user);
+                    // Check current Id is exist in database
+                    var person = dbContext.Users.FirstOrDefault(u => u.Id == user.Id);
+                    
+                    if (person != null)
+                    {
+                        //delete user
+                        dbContext.Users.Remove(person);
+                        await dbContext.SaveChangesAsync();
+                        //return deleted user back
+                        await Response.WriteAsJsonAsync(person);
+                    }
+                    else
+                    {
+                        // user is not exist in database
+                        Response.StatusCode = 404;
+                        await Response.WriteAsJsonAsync(new { message = "Not Found" });
+
+                    }
+                }
+                else
+                {
+                    // request body is null
+                    Response.StatusCode = 404;
+                    await Response.WriteAsJsonAsync(new { message = "Not Found" });
+
+                }
+            }
+            catch(Exception)
+            {
+                await Response.WriteAsJsonAsync(new { message = "Not correct data" });
+            }
+        }
+
+        [HttpGet]
+        [Route("Login")]
+        public async Task VerifyUser(string? login, string? password)
+        {
+            try
+            {
+                if (login != null && password != null)
+                {
+                    var person = dbContext.Users.FirstOrDefault(u => u.Login == login);
+
+                    if (person != null && person.VerifyPassword(password))
+                    {
+                        await Response.WriteAsJsonAsync(person);
+                    }
                 }
                 else
                 {
                     Response.StatusCode = 404;
-                    await Response.WriteAsJsonAsync(new {mewssage = "User not found."});
+                    await Response.WriteAsJsonAsync(new { message = "Not Fount" });
                 }
+            }
+            catch (Exception)
+            {
+                await Response.WriteAsJsonAsync(new { message = "Not correct data" });
             }
         }
     }
