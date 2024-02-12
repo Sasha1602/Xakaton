@@ -1,6 +1,5 @@
 ﻿using Domain;
 using Microsoft.EntityFrameworkCore;
-using MySqlConnector;
 
 namespace DAL;
 
@@ -8,30 +7,22 @@ public class MyDbContext : DbContext //ToDo: migrate to MySql database
 {
     public DbSet<UserEntity> Users { get; set; } = null!;
 
-    public DbSet<ImageEntity> Images { get; set; }
+    public DbSet<ImageEntity> Images { get; set; } = null!;
 
-    public DbSet<NewInfo> News { get; set; }
+    public DbSet<NewInfo> News { get; set; } = null!;
 
-    public DbSet<ResponseEntity> Responses = null!; //for history of requests realization
+    public DbSet<ResponseEntity> Responses { get; set; } = null!; //for history of requests realization
 
-    public DbSet<RequestEntity> Requsets = null!;
+    public DbSet<RequestEntity> Requsets { get; set; } = null!;
 
-    static string connectionString = "server=localhost;port=3306;database=Neuroprint;uid=root;password=1234";
-    MySqlConnection connection = new MySqlConnection(connectionString);
-    
-     protected override void OnConfiguring(DbContextOptionsBuilder builder)
-    {
-        try
-        {
-            connection.Open();
-            Console.WriteLine("Соединение с MySQL установлено!");
-        }
-        catch (MySqlException ex)
-        {
-            Console.WriteLine("Ошибка подключения: " + ex.Message);
-        }
+    public DbSet<UserEntityImages> UserImages { get; set; } = null!;
 
-    }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder builder)
+     {
+         builder.UseMySql("server=localhost;user=root;password=123456789;database=usersdb;",
+             new MySqlServerVersion(new Version(8, 0, 25)));
+     }
 
 
 
