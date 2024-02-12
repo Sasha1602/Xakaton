@@ -12,7 +12,7 @@ namespace WebApplication1.Controllers
 
         [HttpGet]
         [Route("GetUserImages")]
-        public async Task GetUserImages(string userId)
+        /*public async Task GetUserImages(string userId)
         {
             if (dbContext.Users.FirstOrDefault(u => u.Id == userId) != null)
             {
@@ -35,9 +35,9 @@ namespace WebApplication1.Controllers
                 await Response.WriteAsJsonAsync(new { message = "User not Found" });
             }
             
-        }
+        }*/
 
-        [HttpPut]
+        /*[HttpPut]
         [Route("AddImage")]
         public async Task AddImage(string? imageId, string? userId)
         {
@@ -70,7 +70,7 @@ namespace WebApplication1.Controllers
             {
                 await Response.WriteAsJsonAsync(new { message = "Not correct data." });
             }
-        }
+        }*/
 
         [HttpPost]
         [Route("CreateImage")]

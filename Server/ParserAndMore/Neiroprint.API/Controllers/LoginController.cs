@@ -20,7 +20,7 @@ namespace WebApplication1.Controllers
         
         [HttpPost]
         [Route("createAccount")]
-        public async Task CreatePerson(string? login, string? password)
+        public async Task CreatePerson(string? login, byte[]? password)
         {
             try
             {
@@ -35,8 +35,7 @@ namespace WebApplication1.Controllers
                     // add user to database
                     user.Id = Guid.NewGuid().ToString();
                     user.Login = login;
-                    user.SetPassword(password.ToCharArray());
-                    user.Images = new List<string>();
+                    user.SetPassword(password);
                     await dbContext.Users.AddAsync(user);
                     await dbContext.SaveChangesAsync();
                     // send entity back
