@@ -20,7 +20,7 @@ public class MyDbContext : DbContext //ToDo: migrate to MySql database
 
     protected override void OnConfiguring(DbContextOptionsBuilder builder)
      {
-         builder.UseMySql("server=localhost;user=root;password=123456789;database=usersdb;",
+         builder.UseMySql("server=localhost;user=root;password=1234;database=neuroprint;",
              new MySqlServerVersion(new Version(8, 0, 25)));
      }
 
