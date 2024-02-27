@@ -17,11 +17,13 @@ public class MyDbContext : DbContext //ToDo: migrate to MySql database
 
     public DbSet<UserEntityImages> UserImages { get; set; } = null!;
 
+    public DbSet<UserRequestEntity> UserRequests { get; set; } = null;
+
 
     protected override void OnConfiguring(DbContextOptionsBuilder builder)
      {
-         builder.UseMySql("server=localhost;user=root;password=1234;database=neuroprint;",
-             new MySqlServerVersion(new Version(8, 0, 25)));
+         builder.UseMySql("server=localhost;user=root;password=1234;database=neuroprint;", // change connectionstring to yours
+             new MySqlServerVersion(new Version(8, 0, 25))); // select current version of mysql
      }
 
 

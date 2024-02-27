@@ -5,7 +5,7 @@ namespace Domain;
 public class UserEntityImages
 {
     [Key]
-    public string Id { get; set; }
-    public string? UserId { get; set; }
-    public string? ImageId { get; set; }
+    public Guid Id { get; set; }
+    public Guid? UserId { get; set; }
+    public Guid? ImageId { get; set; }
 }

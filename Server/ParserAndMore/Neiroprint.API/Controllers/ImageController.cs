@@ -1,6 +1,7 @@
 using DAL;
 using Domain;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebApplication1.Controllers
 {
@@ -12,65 +13,67 @@ namespace WebApplication1.Controllers
 
         [HttpGet]
         [Route("GetUserImages")]
-        /*public async Task GetUserImages(string userId)
+        public async Task GetUserImages(string userId)
         {
-            if (dbContext.Users.FirstOrDefault(u => u.Id == userId) != null)
+            try
             {
-                var user = await dbContext.Users.FindAsync(userId);
-                var images = user!.Images.ToList();
-                var result = new List<ImageEntity?>();
-                foreach (var img in images)
+                var user = await dbContext.Users.FirstOrDefaultAsync(u => u.Id.ToString() == userId);
+                if (user != null)
                 {
-                    if (dbContext.Images.FirstOrDefault(i => i.Id == img) != null)
+                    var uImages = new List<UserEntityImages>();
+                    foreach (var elem in dbContext.UserImages)
                     {
-                        result.Add(await dbContext.Images.FindAsync(img));
+                        if (elem.UserId == user.Id)
+                        {
+                            uImages.Add(elem);
+                        }
                     }
-                }
-               
-                await Response.WriteAsJsonAsync(result);
-            }
-            else
-            {
-                Response.StatusCode = 404;
-                await Response.WriteAsJsonAsync(new { message = "User not Found" });
-            }
-            
-        }*/
 
-        /*[HttpPut]
+                    await Response.WriteAsJsonAsync(uImages);
+                }
+
+                Response.StatusCode = 404;
+                await Response.WriteAsJsonAsync(new { message = "User not found" });
+            }
+            catch (Exception exception)
+            {
+                Response.StatusCode = 500;
+            }
+        }
+
+        [HttpPut]
         [Route("AddImage")]
         public async Task AddImage(string? imageId, string? userId)
         {
             try
             {
-                var user = dbContext.Users.FirstOrDefault(u => u.Id == userId);
-                
-                    if (user.Images != null)
+                var user = dbContext.Users.FirstOrDefault(u => u.Id.ToString() == userId);
+                if (user != null)
+                {
                     {
                         if (dbContext.Images.FirstOrDefault(img => img.Id == imageId) != null)
                         {
-                            user.Images.Add(imageId);
-                            await Response.WriteAsJsonAsync(user);
+                            var uImages = dbContext.UserImages.Where(x => x.UserId == user.Id);
+                            await Response.WriteAsJsonAsync(uImages);
                         }
                         else
                         {
                             Response.StatusCode = 404;
                             await Response.WriteAsJsonAsync(new { message = "Image not found." });
                         }
+                        
+                        await Response.WriteAsJsonAsync(user);
                     }
-                else
-                {
+                        
                     Response.StatusCode = 404;
-                    await Response.WriteAsJsonAsync(new { message = "User not found."});
+                    await Response.WriteAsJsonAsync(new { message = "User not found." });
                 }
-
-                await Response.WriteAsJsonAsync(user);
             }
-            catch(Exception)
+            catch (Exception)
             {
                 await Response.WriteAsJsonAsync(new { message = "Not correct data." });
             }
-        }*/
+        }
 
         [HttpPost]
         [Route("CreateImage")]

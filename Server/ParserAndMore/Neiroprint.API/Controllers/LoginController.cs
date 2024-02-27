@@ -20,7 +20,7 @@ namespace WebApplication1.Controllers
         
         [HttpPost]
         [Route("createAccount")]
-        public async Task CreatePerson(string? login, byte[]? password)
+        public async Task CreatePerson(string? login, string? password)
         {
             try
             {
@@ -33,7 +33,6 @@ namespace WebApplication1.Controllers
                     // set new user's Id
                     user = new UserEntity();
                     // add user to database
-                    user.Id = Guid.NewGuid().ToString();
                     user.Login = login;
                     user.SetPassword(password);
                     await dbContext.Users.AddAsync(user);
@@ -51,6 +50,7 @@ namespace WebApplication1.Controllers
                 Response.StatusCode = 400;
                 await Response.WriteAsJsonAsync(new { message = "Not correct data"});
             }
+            // ToDo: add data to the UserImages table
         }
         
         [HttpDelete]

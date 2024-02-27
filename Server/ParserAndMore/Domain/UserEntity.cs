@@ -9,15 +9,15 @@ namespace Domain;
 public class UserEntity
 {
     [Key]
-    public string Id { get; set; }
+    public Guid Id { get; set; }
     public byte[] Password { get; set; }
     public string Salt { get; set; }
     public string Login { get; set; }
 
-    public void SetPassword(byte[] password)
+    public void SetPassword(string password)
     {
         Salt = GenerateSalt();
-        Password = HashPassword(Encoding.UTF8.GetBytes(password.ToString()), Salt);
+        Password = HashPassword(Encoding.UTF8.GetBytes(password), Salt);
     }
 
     private static string GenerateSalt()

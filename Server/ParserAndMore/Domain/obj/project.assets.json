@@ -518,7 +518,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\stepa\\.nuget\\packages\\": {}
+    "C:\\Users\\stepa\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -529,13 +530,19 @@
       "packagesPath": "C:\\Users\\stepa\\.nuget\\packages\\",
       "outputPath": "C:\\Code\\Neiroprint\\Xakaton\\Server\\ParserAndMore\\Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\stepa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\stepa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
