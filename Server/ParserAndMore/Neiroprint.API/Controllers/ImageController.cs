@@ -13,27 +13,20 @@ namespace WebApplication1.Controllers
 
         [HttpGet]
         [Route("GetUserImages")]
-        public async Task GetUserImages(string userId)
+        public async Task GetUserImages(Guid? userId)
         {
             try
             {
-                var user = await dbContext.Users.FirstOrDefaultAsync(u => u.Id.ToString() == userId);
+                var user = await dbContext.Users.FirstOrDefaultAsync(u => u.Id == userId);
                 if (user != null)
                 {
-                    var uImages = new List<UserEntityImages>();
-                    foreach (var elem in dbContext.UserImages)
-                    {
-                        if (elem.UserId == user.Id)
-                        {
-                            uImages.Add(elem);
-                        }
-                    }
-
-                    await Response.WriteAsJsonAsync(uImages);
+                    await Response.WriteAsJsonAsync(dbContext.UserImages.Where(x => x.UserId == userId).ToListAsync());
                 }
-
-                Response.StatusCode = 404;
-                await Response.WriteAsJsonAsync(new { message = "User not found" });
+                else
+                {
+                    Response.StatusCode = 404;
+                    await Response.WriteAsJsonAsync(new { message = "User not found" });
+                }
             }
             catch (Exception exception)
             {
@@ -43,31 +36,28 @@ namespace WebApplication1.Controllers
 
         [HttpPut]
         [Route("AddImage")]
-        public async Task AddImage(string? imageId, string? userId)
+        public async Task AddImage(Guid? imageId, Guid? userId)
         {
             try
             {
-                var user = dbContext.Users.FirstOrDefault(u => u.Id.ToString() == userId);
-                if (user != null)
+                if (dbContext.Users.FirstOrDefault(u => u.Id == userId) != null)
                 {
+                    if (dbContext.Images.FirstOrDefault(img => img.Id == imageId) != null)
                     {
-                        if (dbContext.Images.FirstOrDefault(img => img.Id == imageId) != null)
-                        {
-                            var uImages = dbContext.UserImages.Where(x => x.UserId == user.Id);
-                            await Response.WriteAsJsonAsync(uImages);
-                        }
-                        else
-                        {
-                            Response.StatusCode = 404;
-                            await Response.WriteAsJsonAsync(new { message = "Image not found." });
-                        }
-                        
-                        await Response.WriteAsJsonAsync(user);
+                        var uImage = new UserEntityImages() { UserId = userId, ImageId = imageId };
+                        await dbContext.UserImages.AddAsync(uImage);
+                        await dbContext.SaveChangesAsync();
+
+                        await Response.WriteAsJsonAsync(uImage);
                     }
-                        
-                    Response.StatusCode = 404;
-                    await Response.WriteAsJsonAsync(new { message = "User not found." });
+                    else
+                    {
+                        Response.StatusCode = 404;
+                        await Response.WriteAsJsonAsync(new { message = "Image not found." });
+                    }
                 }
+                Response.StatusCode = 404;
+                await Response.WriteAsJsonAsync(new { message = "User not found." });
             }
             catch (Exception)
             {
@@ -81,7 +71,6 @@ namespace WebApplication1.Controllers
         {
             var image = new ImageEntity()
             {
-                Id = Guid.NewGuid().ToString(),
                 ClotheType = clotheType,
                 Color = color,
                 ImagePath = imagePath,

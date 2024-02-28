@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DAL.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20240213134843_initial")]
+    [Migration("20240228094240_initial")]
     partial class initial
     {
         /// <inheritdoc />
@@ -24,8 +24,9 @@ namespace DAL.Migrations
 
             modelBuilder.Entity("Domain.ImageEntity", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("varchar(255)");
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
 
                     b.Property<string>("ClotheType")
                         .HasColumnType("longtext");
@@ -46,8 +47,9 @@ namespace DAL.Migrations
 
             modelBuilder.Entity("Domain.NewInfo", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("varchar(255)");
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
 
                     b.Property<string>("Body")
                         .HasColumnType("longtext");
@@ -69,9 +71,6 @@ namespace DAL.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
-                    b.Property<string>("PhotoId")
-                        .HasColumnType("varchar(255)");
-
                     b.Property<DateTime>("creationDate")
                         .HasColumnType("datetime(6)");
 
@@ -80,8 +79,6 @@ namespace DAL.Migrations
                         .HasColumnType("longtext");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("PhotoId");
 
                     b.ToTable("Requsets");
                 });
@@ -109,8 +106,9 @@ namespace DAL.Migrations
 
             modelBuilder.Entity("Domain.UserEntity", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("varchar(255)");
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
 
                     b.Property<string>("Login")
                         .IsRequired()
@@ -131,10 +129,28 @@ namespace DAL.Migrations
 
             modelBuilder.Entity("Domain.UserEntityImages", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("varchar(255)");
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
 
-                    b.Property<string>("ImageId")
+                    b.Property<Guid?>("ImageId")
+                        .HasColumnType("char(36)");
+
+                    b.Property<Guid?>("UserId")
+                        .HasColumnType("char(36)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("UserImages");
+                });
+
+            modelBuilder.Entity("Domain.UserRequestEntity", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
+
+                    b.Property<string>("RequestId")
                         .HasColumnType("longtext");
 
                     b.Property<string>("UserId")
@@ -142,16 +158,7 @@ namespace DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("UserImages");
-                });
-
-            modelBuilder.Entity("Domain.RequestEntity", b =>
-                {
-                    b.HasOne("Domain.ImageEntity", "Photo")
-                        .WithMany()
-                        .HasForeignKey("PhotoId");
-
-                    b.Navigation("Photo");
+                    b.ToTable("UserRequests");
                 });
 #pragma warning restore 612, 618
         }

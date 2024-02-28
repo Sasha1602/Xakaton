@@ -21,8 +21,9 @@ namespace DAL.Migrations
 
             modelBuilder.Entity("Domain.ImageEntity", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("varchar(255)");
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
 
                     b.Property<string>("ClotheType")
                         .HasColumnType("longtext");
@@ -67,9 +68,6 @@ namespace DAL.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
-                    b.Property<string>("PhotoId")
-                        .HasColumnType("varchar(255)");
-
                     b.Property<DateTime>("creationDate")
                         .HasColumnType("datetime(6)");
 
@@ -78,8 +76,6 @@ namespace DAL.Migrations
                         .HasColumnType("longtext");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("PhotoId");
 
                     b.ToTable("Requsets");
                 });
@@ -160,15 +156,6 @@ namespace DAL.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("UserRequests");
-                });
-
-            modelBuilder.Entity("Domain.RequestEntity", b =>
-                {
-                    b.HasOne("Domain.ImageEntity", "Photo")
-                        .WithMany()
-                        .HasForeignKey("PhotoId");
-
-                    b.Navigation("Photo");
                 });
 #pragma warning restore 612, 618
         }

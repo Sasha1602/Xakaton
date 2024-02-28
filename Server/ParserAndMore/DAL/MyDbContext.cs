@@ -14,7 +14,6 @@ public class MyDbContext : DbContext //ToDo: migrate to MySql database
     public DbSet<ResponseEntity> Responses { get; set; } = null!; //for history of requests realization
 
     public DbSet<RequestEntity> Requsets { get; set; } = null!;
-
     public DbSet<UserEntityImages> UserImages { get; set; } = null!;
 
     public DbSet<UserRequestEntity> UserRequests { get; set; } = null;

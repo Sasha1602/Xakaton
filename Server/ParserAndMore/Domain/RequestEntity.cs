@@ -9,6 +9,4 @@ public class RequestEntity
     public string requestBodyText { get; set; }
 
     public DateTime creationDate { get; set; }
-
-    public ImageEntity? Photo { get; set; }
 }
