@@ -9,17 +9,15 @@ namespace Domain;
 public class UserEntity
 {
     [Key]
-    public string Id { get; set; }
-    public char[] Password { get; set; }
+    public Guid Id { get; set; }
+    public byte[] Password { get; set; }
     public string Salt { get; set; }
     public string Login { get; set; }
 
-    public List<string> Images { get; set; }
-
-    public void SetPassword(char[] password)
+    public void SetPassword(string password)
     {
         Salt = GenerateSalt();
-        Password = HashPassword(Encoding.UTF8.GetBytes(password.ToString()), Salt);
+        Password = HashPassword(Encoding.UTF8.GetBytes(password), Salt);
     }
 
     private static string GenerateSalt()
@@ -34,7 +32,7 @@ public class UserEntity
         return Convert.ToBase64String(saltBytes);
     }
 
-    private static char[] HashPassword(byte[] password, string salt)
+    private static byte[] HashPassword(byte[] password, string salt)
     {
         // Комбинирование пароля и соли
         string combined = password + salt;
@@ -43,7 +41,7 @@ public class UserEntity
         using (SHA256 sha256 = SHA256.Create())
         {
             byte[] hashedBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(combined));
-            return ConvertByteArrayToCharArray(hashedBytes);
+            return hashedBytes;
         }
     }
 

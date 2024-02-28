@@ -33,10 +33,8 @@ namespace WebApplication1.Controllers
                     // set new user's Id
                     user = new UserEntity();
                     // add user to database
-                    user.Id = Guid.NewGuid().ToString();
                     user.Login = login;
-                    user.SetPassword(password.ToCharArray());
-                    user.Images = new List<string>();
+                    user.SetPassword(password);
                     await dbContext.Users.AddAsync(user);
                     await dbContext.SaveChangesAsync();
                     // send entity back
@@ -52,6 +50,7 @@ namespace WebApplication1.Controllers
                 Response.StatusCode = 400;
                 await Response.WriteAsJsonAsync(new { message = "Not correct data"});
             }
+            // ToDo: add data to the UserImages table
         }
         
         [HttpDelete]

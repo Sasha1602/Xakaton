@@ -5,7 +5,7 @@ namespace Domain;
 public class NewInfo
 {
     [Key]
-    public string Id { get; set; }
+    public Guid Id { get; set; }
 
     public string? Body { get; set; }
 
@@ -15,7 +15,7 @@ public class NewInfo
 
     public NewInfo()
     {
-        Id = Guid.NewGuid().ToString();
+        Id = Guid.NewGuid();
         CreationTime = DateTime.Now;
     }
 

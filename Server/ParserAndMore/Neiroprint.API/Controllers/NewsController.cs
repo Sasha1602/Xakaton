@@ -25,7 +25,7 @@ namespace WebApplication1.Controllers
             {
                 if (!await DbContext.News.AnyAsync(x => x.Title == post.Title))
                 {
-                    post.Id = Guid.NewGuid().ToString();
+                    post.Id = Guid.NewGuid();
                     await DbContext.News.AddAsync(post);
                     await DbContext.SaveChangesAsync();
                     await Response.WriteAsJsonAsync(post);
@@ -99,9 +99,9 @@ namespace WebApplication1.Controllers
         {
             try
             {
-                if (await DbContext.News.AnyAsync(x => x.Id == id))
+                if (await DbContext.News.AnyAsync(x => x.Id.ToString() == id))
                 {
-                    await Response.WriteAsJsonAsync(await DbContext.News.FirstOrDefaultAsync(x => x.Id == id));
+                    await Response.WriteAsJsonAsync(await DbContext.News.FirstOrDefaultAsync(x => x.Id.ToString() == id));
                 }
                 else
                 {
