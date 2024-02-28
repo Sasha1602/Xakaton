@@ -1,11 +1,6 @@
-﻿using System;
-using System.Net;
+﻿using System.Net;
 using HtmlAgilityPack;
-using MongoDB.Driver;
-using MongoDB.Bson;
-using System.IO;
 using System.Text.RegularExpressions;
-using System.Collections.Generic;
 using System.Text;
 using DAL;
 using Domain;

@@ -7,22 +7,24 @@ public class MyDbContext : DbContext //ToDo: migrate to MySql database
 {
     public DbSet<UserEntity> Users { get; set; } = null!;
 
-    public DbSet<ImageEntity> Images { get; set; }
+    public DbSet<ImageEntity> Images { get; set; } = null!;
 
-    public DbSet<NewInfo> News { get; set; }
+    public DbSet<NewInfo> News { get; set; } = null!;
 
-    public DbSet<ResponseEntity> Responses = null!; //for history of requests realization
+    public DbSet<ResponseEntity> Responses { get; set; } = null!; //for history of requests realization
 
-    public DbSet<RequestEntity> Requsets = null!;
-    
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=Neiroprint;UserName=postgres;Password=1234;");
+    public DbSet<RequestEntity> Requsets { get; set; } = null!;
+    public DbSet<UserEntityImages> UserImages { get; set; } = null!;
 
-        /*("server=localhost;user=root;password=123456789;database=usersdb;",
-        // ToDo: download MySQL Connector for Dotnet and change MySqlServerVersion() func
-        new MySqlServerVersion(new Version(8, 0, 25)));*/
-        //This for MySql
+    public DbSet<UserRequestEntity> UserRequests { get; set; } = null;
 
-    }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder builder)
+     {
+         builder.UseMySql("server=localhost;user=root;password=1234;database=neuroprint;", // change connectionstring to yours
+             new MySqlServerVersion(new Version(8, 0, 25))); // select current version of mysql
+     }
+
+
+
 }
